@@ -1,0 +1,26 @@
+:root:has(.moodIcon input:checked) {
+    --minColor: #c17e1f;
+    --minBackground: #252525;
+    --color-link: #5c5a5a;
+    --box-shadow:#171717;
+    --colorHover: #d78c23;
+    --color-white: #000;
+    --color-black: #fff;
+    --color-secondary: #9f9d96;
+    --bg-color: #0009;
+    --bg-div: #000;
+    --bg-div-shad: #000;
+}
+
+body:has(.moodIcon input:checked) .moodIcon .dark-icon {
+    display: block;
+}
+
+body:has(.moodIcon input:checked) .moodIcon .light-icon {
+    display: none;
+}
+
+body:has(.moodIcon input:checked){
+    background-color:#202020;
+}
+
